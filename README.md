@@ -2,6 +2,6 @@
 
 
 
-## a store for booBs :} 
+## a store for books :} 
 
 
