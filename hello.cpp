@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 
-    int x,y = 10;80;
+    int x,y=80;
 
     cout << x * y*x ;
     
