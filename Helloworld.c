@@ -1,5 +1,6 @@
 #include<stdio.h>
 #inlcude<stdlib.h>
+#include<string.h>
 int main()
 {
 char* HelloString = malloc(strlen("Hello world)+1);
