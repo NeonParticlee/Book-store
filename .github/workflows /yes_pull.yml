@@ -1,0 +1,8 @@
+name: my_link
+on: [pull_request , push , creart]
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "اذا ذي اشتغلت الملف تجدد  :>"
