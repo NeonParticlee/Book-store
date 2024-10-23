@@ -1,0 +1,8 @@
+name: yamlers
+on: [push, fork] 
+jobs:
+  my-job:
+    runs-on: windows-latest
+    steps:
+      - name: my-step
+        run: echo "Yummers"
