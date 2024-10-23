@@ -1,0 +1,8 @@
+name: my-yaml
+on: push
+jobs:
+my-job:
+runs-on: windows-latest
+steps:
+- name: my-step
+run: echo "Hello World!"
