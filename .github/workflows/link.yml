@@ -1,0 +1,8 @@
+name: link
+on: {pull_request , push }
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "link is the cook!"
