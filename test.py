@@ -36,6 +36,13 @@ class TestCalculator(unittest.TestCase):
         result = self.calc.multiply(-1, 1)
         self.assertEqual(result, -1)
 
+    def test_mod(self):
+         result = self.calc.mod(10)
+         self.assertEqual(result, -1)
+
+
+
+
     def test_divide(self):
         # Test division functionality
         result = self.calc.divide(10, 2)
