@@ -2,7 +2,7 @@
 
 class Calculator:
     def add(self, a, b):
-        return a + b + 4
+        return a + b 
  
     def subtract(self, a, b):
         return a - b 
@@ -17,6 +17,6 @@ class Calculator:
     
     def mod(self,a):
         if a%2 == 0:
-            print("yes")
+            return a%2
         else:
-            print("too bad")
+            return 1

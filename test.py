@@ -38,7 +38,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_mod(self):
          result = self.calc.mod(10)
-         self.assertEqual(result, -1)
+         self.assertEqual(result, 0)
 
 
 
