@@ -2,8 +2,8 @@
 
 class Calculator:
     def add(self, a, b):
-        return a + b 
-
+        return a + b + 4
+ 
     def subtract(self, a, b):
         return a - b 
 
@@ -14,3 +14,9 @@ class Calculator:
         if b == 0:
             raise ValueError("Cannot divide by zero")
         return a / b
+    
+    def mod(self,a):
+        if a%2 == 0:
+            print("yes")
+        else:
+            print("too bad")
